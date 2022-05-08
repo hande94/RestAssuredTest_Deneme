@@ -1,6 +1,6 @@
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 public class MockAPI_Examples {
@@ -65,7 +65,7 @@ public class MockAPI_Examples {
 
     }
 
-    @Test
+    //@Test
     public void test_delete(){
 
         baseURI = "http://localhost:3000/";

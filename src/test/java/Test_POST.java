@@ -1,8 +1,7 @@
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-
 //import java.util.HashMap;
 //import java.util.Map;
 
@@ -60,7 +59,7 @@ public class Test_POST {
                 log().all();
     }
 
-    @Test
+    //@Test
     public void test1_delete(){
 
         when().
